@@ -9,4 +9,4 @@ app.use(express.json());
 app.use(routes);
 
 //localhost: 5432
-app.listen(5432);
+app.listen(process.env.PORT || 5432);
